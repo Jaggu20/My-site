@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janani's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f3e9; /* Light vanilla base */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(45deg, #c3aed6, #f4b6c2, #d1e8e2);
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid #b8a2d2;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .gallery, .inspiration {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .gallery img, .inspiration img {
+            max-width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 2px solid #c3aed6;
+        }
+
+        .text-section {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .about {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 40px;
+            background-color: #f4f4ed;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #a7d2cb;
+        }
+
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 3px solid #cdb4db;
+        }
+
+        .about-text {
+            flex: 1;
+            color: #5a189a;
+        }
+
+        footer {
+            background: linear-gradient(90deg, #c3aed6, #f4b6c2, #a7d2cb);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-top: 5px solid #b8a2d2;
+        }
+
+        h2 {
+            text-align: center;
+            color: #6a0572;
+        }
+
+        a {
+            color: #6a0572;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .about {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about img {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <audio autoplay loop>
+        <source src="Music.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <header>
+        <h1>My Photography Journey</h1>
+        <p>Capturing emotions through my camera lens!</p>
+    </header>
+
+    <section>
+        <h2>My Gallery</h2>
+        <div class="gallery">
+            <img src="placeholder1.jpg" alt="Placeholder Image 1">
+            <img src="placeholder2.jpg" alt="Placeholder Image 2">
+            <img src="placeholder3.jpg" alt="Placeholder Image 3">
+            <img src="placeholder4.jpg" alt="Placeholder Image 4">
+        </div>
+        <div class="text-section">
+            <p>Discover the sweetest moments from my creative journey.</p>
+        </div>
+    </section>
+    <section>
+        <h2>✨The Inspiration!✨</h2>
+            <div class="inspiration">
+            <img src="placeholder.jpg" alt="Inspiration Image">
+        </div>
+        <div class="text-section">
+            <p>There's something magical about old photographs – the way they capture a moment, an emotion, a story, all in a single frame. My earliest memory of photography is when I was about 5 or 6 years old. My mother's camera fascinated me, but being a child I was not allowed to use it. I would dream of the day I'd finally get to hold it, but by the time I was old enough, the camera was already damaged</p>
+            <p>Despite that, my love for photography only deepened. As a child, I was always curious with the photo albums my mom carefully kept in a stack in the shelf. It wasn’t just a collection of pictures; it was a doorway to the past, a silent storyteller that spoke to me in ways words never could. </p>
+            <p>Now, I realize that my journey with photography began with this childhood curiosity. It wasn’t just about using a camera; it was about preserving memories, connecting with moments, and telling stories that words couldn’t. Photography became my way of expressing emotions, and that's how my passion was born : )</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <div class="about">
+            <img src="profile.jpg" alt="Profile Picture">
+            <div class="about-text">
+                <p>Hello! My name is Janani and I have a sweet tooth for photography. I want to capture real emotions, real laughs, hidden tears and those moments when people are truly being themselves. Let’s connect and explore something magical together!</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Connect with me</h2>
+        <p style="text-align: center;">You can reach me at <a href="jananit2084@gmail.com">jananit2084@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Janani's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
